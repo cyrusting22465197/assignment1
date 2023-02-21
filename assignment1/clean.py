@@ -15,3 +15,7 @@ output_file=df4[df4['job'].str.contains('insurance|Insurance')==False]
 
 #export
 output_file.to_csv('output_file.csv',index=False)
+
+print(output_file)
+print("Output file shape:")
+print(output_file.shape)
